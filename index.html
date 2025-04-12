@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typographix Blog</title>
     <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="stylesheet" href="scrollbar.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/compiled_style.css">
 </head>
 <body>
     <!-- Sticky Navbar -->
@@ -17,7 +16,11 @@
         <div class="nav-right">
             <a href="#">Home</a>
             <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="#">Contact</a>   
+            <!-- Dark Mode Switch -->
+            <div id="theme-switcher" class="theme-switcher">
+                <i class="fas fa-sun"></i>
+            </div>
         </div>
     </nav>
 
@@ -26,35 +29,36 @@
         <!-- Skeleton for Main Featured Article -->
         <div class="skeleton featured-article-skeleton">
             <div class="skeleton-image"></div>
-            <div class="skeleton-line skeleton-line--large"></div> 
+            <div class="skeleton-line skeleton-line--large"></div>
             <div class="skeleton-line"></div>
             <div class="skeleton-line"></div>
-            <div class="skeleton-line"></div> 
+            <div class="skeleton-line"></div>
         </div>
+
         <!-- Skeleton for Smaller Articles -->
         <div class="smaller-articles">
             <div class="skeleton article-skeleton">
                 <div class="skeleton-image"></div>
-                <div class="skeleton-line skeleton-line--large"></div> 
+                <div class="skeleton-line skeleton-line--large"></div>
                 <div class="skeleton-line"></div>
                 <div class="skeleton-line"></div>
-                <div class="skeleton-line"></div> 
+                <div class="skeleton-line"></div>
             </div>
             <div class="skeleton article-skeleton">
                 <div class="skeleton-image"></div>
-                <div class="skeleton-line skeleton-line--large"></div> 
+                <div class="skeleton-line skeleton-line--large"></div>
                 <div class="skeleton-line"></div>
                 <div class="skeleton-line"></div>
-                <div class="skeleton-line"></div> 
+                <div class="skeleton-line"></div>
             </div>
             <div class="skeleton article-skeleton">
                 <div class="skeleton-image"></div>
-                <div class="skeleton-line skeleton-line--large"></div> 
+                <div class="skeleton-line skeleton-line--large"></div>
                 <div class="skeleton-line"></div>
                 <div class="skeleton-line"></div>
-                <div class="skeleton-line"></div> 
+                <div class="skeleton-line"></div>
             </div>
-        </div>    
+        </div>
 
         <!-- Main Featured Article -->
         <div class="featured-article hidden">
@@ -66,7 +70,7 @@
 
         <!-- Three Smaller Articles -->
         <div class="smaller-articles">
-            <!-- Article 2 -->
+            <!-- Article 1 -->
             <div class="article hidden">
                 <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80" alt="Robot on bench">
                 <h2>Unveiling the Future: Quantum Leaps in Humanoid Robotics</h2>
@@ -74,7 +78,7 @@
                 <a href="article2.html">Read More</a>
             </div>
             
-            <!-- Article 3 -->
+            <!-- Article 2 -->
             <div class="article hidden">
                 <img src="https://images.unsplash.com/photo-1451187863213-d1bcbaae3fa3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80" alt="Underwater Computer">
                 <h2>Diving Deep: Underwater Cooling Computer Hardware</h2>
@@ -82,7 +86,7 @@
                 <a href="article3.html">Read More</a>
             </div>
             
-            <!-- Article 4 -->
+            <!-- Article 3 -->
             <div class="article hidden">
                 <img src="https://images.unsplash.com/photo-1487875961445-47a00398c267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Windmill Farm">
                 <h2>Harnessing the Breeze: The Future of Wind Energy</h2>
